@@ -44,10 +44,6 @@ services:
     volumes:
       - mysql:/var/lib/mysql
 
-networks:
-  qnet-vlan0:
-    external: true
-
 volumes:
   data:
   letsencrypt:
